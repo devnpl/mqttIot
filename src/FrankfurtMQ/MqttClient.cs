@@ -292,7 +292,7 @@ namespace uPLibrary.Networking.M2Mqtt
 #endif
         {
         }
-
+        
         /// <summary>
         /// Constructor
         /// </summary>

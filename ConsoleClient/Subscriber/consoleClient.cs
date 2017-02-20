@@ -14,7 +14,7 @@ namespace ConsoleClient
         public static void Main(string[] args)
         {
 
-            MqttClient client = new MqttClient("broker.hivemq.com");
+            MqttClient client = new MqttClient("test.mosquitto.org");
             string uniqueclientid = Guid.NewGuid().ToString();
             client.Connect(uniqueclientid);
 

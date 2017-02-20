@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>a0209202-8356-45f6-9216-04659f65bdbe</ProjectGuid>
-    <RootNamespace>CreateDeviceIdentity</RootNamespace>
+    <ProjectGuid>a91d3fcf-12e9-4b23-b214-f0b4f9888d6c</ProjectGuid>
+    <RootNamespace>IotConsoleSubscriber</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

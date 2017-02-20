@@ -15,7 +15,7 @@ namespace ConsoleServer
 
             
         {
-            MqttClient client = new MqttClient("broker.hivemq.com");
+            MqttClient client = new MqttClient("test.mosquitto.org");
             string uniqueserverid = Guid.NewGuid().ToString();
             client.Connect(uniqueserverid);
             try
