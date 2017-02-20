@@ -13,7 +13,7 @@ namespace ReceiveMessage
     {
         public static void Main(string[] args)
         {
-            //StudnetIotHub.azure-devices.net;DeviceId=Test01
+            StudnetIotHub.azure-devices.net;DeviceId=Test01
 
             MqttClient newclient = new MqttClient("StudnetIotHub.azure-devices.net");
             var client = new MqttClient("StudnetIotHub.azure-devices.net", 8883, true,MqttSslProtocols.SSLv3, (a,s,d,f)=> { return true; }, ()=> { return null; });
